@@ -1,5 +1,7 @@
 body {
   font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 section {
@@ -15,7 +17,7 @@ section {
 
 footer {
   text-align: center;
-  padding: 80px;
+  padding: 60px 60px 8px 60px;
 }
 
 nav {
@@ -201,6 +203,11 @@ h2 {
   display: none;
 }
 
+.footer-agreement {
+  font-size: 16px;
+  padding: 16px;
+}
+
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
@@ -303,7 +310,9 @@ h2 {
   .gallery-container {
     margin: 20px 50px;
   }
-
+  footer {
+    padding: 20px;
+  }
   footer p {
     font-size: 20px;
   }
