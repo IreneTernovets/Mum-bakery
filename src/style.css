@@ -160,12 +160,19 @@ h2 {
 .headshot-container {
   display: flex;
   align-items: center;
-}
-.headshot {
-  max-height: 250px;
-  width: auto;
+  max-height: 300px;
+  max-width: 300px;
+  overflow: hidden;
   border-radius: 45%;
   border: 15px dotted #e384ff;
+}
+.headshot {
+  scale: 1.4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: translateY(10%);
 }
 .gallery-container {
   display: flex;
